@@ -1,0 +1,17 @@
+{
+	"profiles" : [
+		{
+			"profile_id" : 1,
+			"profile_name" : "Sencha 6 - Test Documentation",
+			"documentation_version" : "5.0.23.23",
+			"documentation_source" : [
+				{
+					"url" : "C:\\Users\\Anton\\Downloads\\extjs-652-docs\\extjs\\6.5.2\\classic",
+					"type" : "file",
+					"root" : "C:/Users/Anton/Downloads/extjs-652-docs/",
+					"prefix" : "/extjs/6.5.2/classic/"
+				}
+			]
+		}
+	]
+}
