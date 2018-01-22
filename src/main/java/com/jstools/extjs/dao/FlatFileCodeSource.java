@@ -104,10 +104,4 @@ public class FlatFileCodeSource implements ICodeSource {
             }
         }
     }
-
-    public static void main(String[] arsg)
-    {
-        List<SourceFile> a = new FlatFileCodeSource().getSourceFileContent();
-        System.out.println();
-    }
 }

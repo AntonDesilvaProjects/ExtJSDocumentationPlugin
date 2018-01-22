@@ -32,9 +32,11 @@ public class ExtJSDocumentationSearcher implements ISearcher<Documentation> {
         double classNameMatchFraction = 0.0;
         double xtypeMatchFraction = 0.0;
 
+        query = query.toLowerCase(); //We will disregard match case
+
         //Match the query against the class name
         String extJSClassName = searchObj.getDocumentedClass().getName().toLowerCase();
-        if( extJSClassName.contains(query) )
+        if( extJSClassName.contains( query ) )
            classNameMatchFraction = ( query.length() * 1.0 ) / extJSClassName.length();
 
         //Match the query against the class's aliases and take maximum
@@ -42,7 +44,7 @@ public class ExtJSDocumentationSearcher implements ISearcher<Documentation> {
         double partialMatchFraction = 0.0;
         for( String alias : aliases )
         {
-            if( alias.trim().contains( query ) ) {
+            if( alias.trim().toLowerCase().contains( query ) ) {
                 partialMatchFraction = (query.length() * 1.0) / alias.length();
                 xtypeMatchFraction = ( partialMatchFraction > xtypeMatchFraction ) ? partialMatchFraction : xtypeMatchFraction;
             }
@@ -54,24 +56,24 @@ public class ExtJSDocumentationSearcher implements ISearcher<Documentation> {
                 ( 1 - DocumentationConstants.EXTJS_CLASSNAME_WEIGHT ) * xtypeMatchFraction;
     }
 
-    public static void main(String[] args)
-    {
-        Documentation a = new Documentation();
-        a.setDocumentedClass( new Class() );
-        a.getDocumentedClass().setAlias("panel");
-        a.getDocumentedClass().setName("Ext.panel.Panel");
-
-        Documentation b = new Documentation();
-        b.setDocumentedClass( new Class() );
-        b.getDocumentedClass().setAlias("gpanel,panel");
-        b.getDocumentedClass().setName("Ext.ux.Panel");
-
-        ArrayList<Documentation> x = new ArrayList<Documentation>();
-        x.add( a );
-        x.add( b );
-
-        List<SearchResult<Documentation>> k = new ExtJSDocumentationSearcher().getRankedMatches( x, "panel");
-
-    }
+//    public static void main(String[] args)
+//    {
+//        Documentation a = new Documentation();
+//        a.setDocumentedClass( new Class() );
+//        a.getDocumentedClass().setAlias("panel");
+//        a.getDocumentedClass().setName("Ext.panel.Panel");
+//
+//        Documentation b = new Documentation();
+//        b.setDocumentedClass( new Class() );
+//        b.getDocumentedClass().setAlias("gpanel,panel");
+//        b.getDocumentedClass().setName("Ext.ux.Panel");
+//
+//        ArrayList<Documentation> x = new ArrayList<Documentation>();
+//        x.add( a );
+//        x.add( b );
+//
+//        List<SearchResult<Documentation>> k = new ExtJSDocumentationSearcher().getRankedMatches( x, "panel");
+//
+//    }
 
 }

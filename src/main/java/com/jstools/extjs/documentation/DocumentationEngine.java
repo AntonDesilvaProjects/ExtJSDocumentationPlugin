@@ -55,8 +55,8 @@ public class DocumentationEngine {
         return profile;
     }
 
-    public static void main(String[] args)
-    {
-        new DocumentationEngine().initializeDocumentation();
-    }
+//    public static void main(String[] args)
+//    {
+//        new DocumentationEngine().initializeDocumentation();
+//    }
 }
