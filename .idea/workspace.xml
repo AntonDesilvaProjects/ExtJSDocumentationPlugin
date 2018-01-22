@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74c58225-d753-4a8a-b33a-ce32269bb567" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/jstools/extjs/ApplicationRunner.class" afterPath="$PROJECT_DIR$/target/classes/com/jstools/extjs/ApplicationRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/jstools/extjs/common/DocumentationConstants.class" afterPath="$PROJECT_DIR$/target/classes/com/jstools/extjs/common/DocumentationConstants.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/jstools/extjs/dao/FlatFileCodeSource.class" afterPath="$PROJECT_DIR$/target/classes/com/jstools/extjs/dao/FlatFileCodeSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/jstools/extjs/documentation/DocumentationEngine.class" afterPath="$PROJECT_DIR$/target/classes/com/jstools/extjs/documentation/DocumentationEngine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/jstools/extjs/search/ExtJSDocumentationSearcher.class" afterPath="$PROJECT_DIR$/target/classes/com/jstools/extjs/search/ExtJSDocumentationSearcher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ExtJsDocumentationServer.iml" afterPath="$PROJECT_DIR$/ExtJsDocumentationServer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jstools/extjs/ApplicationRunner.java" afterPath="$PROJECT_DIR$/src/main/java/com/jstools/extjs/ApplicationRunner.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jstools/extjs/common/DocumentationConstants.java" afterPath="$PROJECT_DIR$/src/main/java/com/jstools/extjs/common/DocumentationConstants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jstools/extjs/dao/FlatFileCodeSource.java" afterPath="$PROJECT_DIR$/src/main/java/com/jstools/extjs/dao/FlatFileCodeSource.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jstools/extjs/documentation/DocumentationEngine.java" afterPath="$PROJECT_DIR$/src/main/java/com/jstools/extjs/documentation/DocumentationEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jstools/extjs/search/ExtJSDocumentationSearcher.java" afterPath="$PROJECT_DIR$/src/main/java/com/jstools/extjs/search/ExtJSDocumentationSearcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/DocumentationViewer/app.js" afterPath="$PROJECT_DIR$/src/main/resources/static/DocumentationViewer/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/DocumentationViewer/app.js" afterPath="$PROJECT_DIR$/target/classes/static/DocumentationViewer/app.js" />
-    </list>
+    <list default="true" id="74c58225-d753-4a8a-b33a-ce32269bb567" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
